@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  </head>
+  <body>
+    <section class="overlay">
+			<h1><strong>⊇ Student Registration Form ⊆</strong></h1>
+      <p><u>FORM</u></p>
+      <form action="submission.html" method="GET">
+        <label for="username">Name:</label>
+        <br>
+				<input id="username" name="name" type="text" required minlength="3" maxlength="15">
+        <br>
+
+        <label for="age">Age:</label>
+        <br>
+				<input id="age" name="age"  type="number">
+        <br>
+
+        <label for="city">City:</label>
+        <br>
+				<input id="city" name="city"  type="text">
+        <br>
+
+        <label for="phone_number">Phone Number:</label>
+        <br>
+				<input id="phone_number" name="phone_number"  type="tel" required minlength="10">
+        <br>
+
+        <label for="pw">Password:</label>
+        <br>
+				<input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </body>
+</html>
